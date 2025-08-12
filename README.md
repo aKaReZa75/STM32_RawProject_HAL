@@ -1,5 +1,6 @@
-# STM32F103C8 Raw Project Template Using STM32 HAL (Keil Setup)
-This repository provides a lightweight and well-structured starting point for STM32F103C8 development using STM32CubeMX for code generation and STM32 HAL for hardware abstraction. It includes all necessary setup files for Keil uVision, allowing developers to quickly launch new projects by simply copying the files into their workspace.
+# STM32F103C8 Project Template Using STM32 HAL & CubeMX (Keil Setup)
+This repository provides a lightweight and well-structured starting point for STM32F103C8 development, combining the flexibility of STM32CubeMX with the robustness of STM32 HAL libraries. It is tailored for use with Keil uVision, and includes all essential setup files to help developers quickly launch new projects by simply copying the contents into their workspace.
+Whether you're building a new embedded application or experimenting with STM32 peripherals, this template helps you get started fast with a reliable foundation.
 
 <table>
   <tr>
