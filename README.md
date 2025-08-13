@@ -33,6 +33,16 @@ Whether you're building a new embedded application or experimenting with STM32 p
   </tr>  
 </table>
 
+| **Setting**                     | **Default Value**               |
+|----------------------------------|----------------------------------|
+| Programmer                       | STLink V3 MiniE                  |
+| Oscillator Frequency             | 64 MHz                           |
+| Serial Port                      | USART1 (Onboard, via USB)        |
+| Serial Baud Rate                 | 115200 bps                       |
+| Push Button                      | PA10 (Active Low)                |
+| Onboard LED                      | PB5 (Active High)                |
+| SWO Debug Output                 | Enabled                          |
+| `printf` in Debug Environment    | Enabled (via SWO)                |
 
 # 🔗 Resources
   Here you'll find a collection of useful links and videos related to the topic of AVR microcontrollers.  
