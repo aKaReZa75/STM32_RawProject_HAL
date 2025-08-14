@@ -87,7 +87,7 @@ First, open **Git Bash** :
 -  Once **Git Bash** is open, run the following command to clone the repository:
 
  ```bash
-git clone https://github.com/aKaReZa75/STM32F103C8_RawProject_HAL.git
+git clone https://github.com/aKaReZa75/STM32_RawProject_HAL
 ```
 - You can copy the above command by either:
 - Clicking on the **Copy** button on the right of the command.
