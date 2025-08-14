@@ -54,6 +54,13 @@ Whether you're building a new embedded application or experimenting with STM32 p
 > [!CAUTION]
 > This tutorial has not yet **started!**
 
+- [STM32 Microcontroller Training](https://github.com/aKaReZa75/STM32)  
+  ---  
+  This repository offers a **comprehensive guide to STM32 microcontroller programming**, focusing on the STM32F103C8T6. Explore **STM32 architecture, peripheral configuration, timers, interrupts, communication protocols (UART, SPI, I2C), and real-time applications** through practical examples and hands-on projects. Whether you're a beginner or an experienced developer, this resource will help you build a strong foundation and advance your skills in STM32 embedded development.
+
+- [eBoard for STM32F103C8](https://github.com/aKaReZa75/eBoard_STM32F103C8)  
+  ---  
+  This repository documents the **design, assembly, and testing** of an educational header board built around the STM32F103C8 microcontroller. Designed to be **Arduino UNO-compatible**, this board provides a practical platform for learning and experimenting with STM32 development. It includes schematics, PCB layout to help users understand hardware integration, pin mapping, and peripheral interfacing in a hands-on way.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
