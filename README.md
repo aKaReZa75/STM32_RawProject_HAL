@@ -59,8 +59,37 @@ Whether you're building a new embedded application or experimenting with STM32 p
   ---  
   This repository documents the **design, assembly, and testing** of an educational header board built around the STM32F103C8 microcontroller. Designed to be **Arduino UNO-compatible**, this board provides a practical platform for learning and experimenting with STM32 development. It includes schematics, PCB layout to help users understand hardware integration, pin mapping, and peripheral interfacing in a hands-on way.
 
-> [!CAUTION]
-> This tutorial has not yet **started!**
+
+```plaintext
+📁 Hands-on STM32
+│
+└── [aKaReZa 115 - First Project - PART A]
+      ├─ Hardware — Overview and setup.
+      ├─ CubeMX — Project creation and System Core config.
+      ├─ Clock Tree — Precise configuration.
+      ├─ Project Manager — Navigation and settings.
+      ├─ Packages — Cube and Keil DFP (online/offline).
+      └─ Code Gen — Modes and structure.
+```
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/E2W5Y3cPvDQ">aKaReZa 115 – STM32, First Project - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Kickstart your STM32 journey by setting up your first bare project. This video covers hardware overview, STM32CubeMX configuration, clock tree setup, Cube Package and Keil DFP installation (online/offline), and code generation modes—perfect for building a solid foundation in STM32 development.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/E2W5Y3cPvDQ">
+        <img src="https://img.youtube.com/vi/E2W5Y3cPvDQ/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 115 – STM32, First Project - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
