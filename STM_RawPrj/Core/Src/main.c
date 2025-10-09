@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
+#include "akareza.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
