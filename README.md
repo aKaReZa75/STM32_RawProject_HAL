@@ -2,6 +2,14 @@
 This repository provides a lightweight and well-structured starting point for STM32F103C8 development, combining the flexibility of STM32CubeMX with the robustness of STM32 HAL libraries. It is tailored for use with Keil uVision, and includes all essential setup files to help developers quickly launch new projects by simply copying the contents into their workspace.
 Whether you're building a new embedded application or experimenting with STM32 peripherals, this template helps you get started fast with a reliable foundation.
 
+> [!NOTE]  
+> If you are looking for the **`aKaReZa.h`** base header file for the **STM32 project**, you can find it in the following directory:  
+> `STM_RawPrj/MDK-ARM/aKaReZa.h`  
+>  
+> Or simply click the link below to open it directly on GitHub:  
+> 👉 [Open aKaReZa.h on GitHub](https://github.com/aKaReZa75/STM32_RawProject_HAL/blob/main/STM_RawPrj/MDK-ARM/aKaReZa.h)
+
+
 <table>
   <tr>
   <td valign="top">
