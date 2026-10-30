@@ -1,1 +1,107 @@
-STM_RawPrj/*.workspace
+# ==============================================================================
+#  .gitignore - STM32CubeMX + Keil MDK-ARM + Proteus projects
+# ==============================================================================
+#  Patterns without a leading slash match in ANY subfolder, so one file at the
+#  repository root covers every project inside it.
+# ==============================================================================
+
+
+# ------------------------------------------------------------------------------
+#  Keil MDK-ARM (uVision) - build output
+# ------------------------------------------------------------------------------
+# Object, dependency, and compiler output
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.lnp
+*.dep
+*.iex
+*.i
+*.lst
+*.map
+*.sct
+*.bak
+*.tra
+*.__i
+*.__ia
+*.build_log.htm
+*.htm
+*.scvd
+
+# Build output folders (MDK-ARM generates these)
+Objects/
+Listings/
+Output/
+
+# Keil per-user and debugger files (the .uvprojx project file is kept)
+*.uvoptx
+*.uvguix.*
+*.uvgui.*
+*.uvopt
+JLinkLog.txt
+JLinkSettings.ini
+EventRecorderStub.scvd
+DebugConfig/
+RTE/
+
+# Firmware images. Uncomment the next line if you do NOT want to publish .hex / .bin
+# *.hex
+# *.bin
+
+
+# ------------------------------------------------------------------------------
+#  STM32CubeMX - generated files
+# ------------------------------------------------------------------------------
+# The .ioc file is the source of truth and is KEPT. Everything below can be
+# regenerated from it.
+#
+# CubeMX local backup/temp files
+*.ioc.bak
+*.ioc~
+.mxproject.bak
+Backup/
+
+# HAL / CMSIS driver copies (large, and regenerated from the .ioc).
+# Uncomment ONLY if every user will regenerate the project with CubeMX before building.
+# Drivers/
+# Middlewares/
+
+# Per-project IDE helper folders created by CubeMX / STM32CubeIDE
+.settings/
+.metadata/
+Debug/
+Release/
+
+
+# ------------------------------------------------------------------------------
+#  Proteus - temporary and backup files
+# ------------------------------------------------------------------------------
+# The .pdsprj design file is KEPT.
+*.pdsprj
+*.workspace
+*.pdsbak
+*.pdsclip
+*.sdf
+*.cdf
+*.dsn.bak
+
+
+# ------------------------------------------------------------------------------
+#  Common (Windows / editors)
+# ------------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
